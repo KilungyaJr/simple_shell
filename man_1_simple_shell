@@ -1,7 +1,7 @@
 .TH man 1 "SEP 07 2022" "1.0" "ALX Simple Shell Project"
 
 .SH NAME
-    hsh - Holberton Simple Shell: command line interpreter
+    hsh - command line interpreter
 
 .SH SYNOPSIS
 hsh [filename]
@@ -14,7 +14,7 @@ hsh [filename]
 is a basic imitation of a command line interpreter that reads and implements basic commands from user input as a shell would.
 .PP
 .B hsh
- is compiled on Ubuntu 14.04 LTS with gcc 4.8.4 (C90). It is built to run in both interactive and noninteractive mode.
+ is compiled on Ubuntu 20.04 LTS with gnu (C89) gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh. It is built to run in both interactive and noninteractive mode.
 .PP
 .SH USER INPUT
 Once a user inputs a command and hits enter, the shell performs the following actions:
